@@ -40,7 +40,7 @@ export async function POST(req) {
 
 export async function GET() {
   await connectToDB()
-  console.log("hello")
+  console.log("hellofjfjf")
 
   try {
     const surveys = await Survey.find().sort({ createdAt: -1 })
